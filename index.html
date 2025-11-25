@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>DataVis - Assignment 2</title>
-    
-    Instead of this blank page, your beautiful visualizations should appear here :)
-    
-    <!-- Loading d3js version 5-->
-    <script src="d3.v5.min.js"></script>
-  
-    
-    <!-- Loading style.css; use if needed -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>DataVis - Assignment 2</title>
 
-</head>
-
-<body>
+  <!-- loading data -->
+  <script src="d3.v5.min.js"></script>
 
 <!-- YOUR SOLUTION GOES HERE-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Car Scatterplot</h1>
+  <p>
+    X: Retail Price | Y: Horsepower | Color: Type | Size: City Miles Per Gallon
+  </p>
 
+  <div id="container">
+    <div id="chart"></div>
+    <div id="details">
+      <h2>Car details</h2>
+      <div id="details-content">
+        <table id="details-table">
+          <tbody>
+            <tr><th>Name</th><td id="d-Name">--</td></tr>
+            <tr><th>Type</th><td id="d-Type">--</td></tr>
+            <tr><th>Retail Price</th><td id="d-Retail_Price">--</td></tr>
+            <tr><th>Horsepower(HP)</th><td id="d-Horsepower_HP">--</td></tr>
+            <tr><th>Engine Size (l)</th><td id="d-Engine_Size_l">--</td></tr>
+            <tr><th>City Miles Per Gallon</th><td id="d-City_Miles_Per_Gallon">--</td></tr>
+            <tr><th>Highway Miles Per Gallon</th><td id="d-Highway_Miles_Per_Gallon">--</td></tr>
+        </tbody>
+        </table>
 
-<!-- loading the main javascript file; implement logic there -->
-<script src="main.js"></script>
+        <div id="starplot-wrap">
+          <h3>Attribute starplot</h3>
+          <svg id="starplot-svg" width="280" height="280"></svg>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <script src="main.js"></script>
 </body>
 </html>

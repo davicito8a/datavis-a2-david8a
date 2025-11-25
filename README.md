@@ -15,6 +15,12 @@ You should then be able to see your website at [http://localhost:8000](http://lo
 
 *Note:* feel free to explore other development environments such as [Vite](https://vite.dev/), [Flask (python)](https://flask.palletsprojects.com/en/stable/), etc. 
 
+
+
+## 👤 Project Information
+Student: David Jose Ochoa Garcia
+Repository Link: https://github.com/davicito8a/datavis-a2-david8a
+
 ## Debugging: 
 Feel free to make extensive use of your browser's development tools! 
 In chrome-based browsers, you can simply use Ctrl+J to open the browser console, which will show all the `console.log` and similar that you write in the code. 
